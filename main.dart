@@ -1,5 +1,7 @@
 void main() {
-  var name = "Sina";
-  var lastName = 'Saniee';
-  print('$name $lastName and the age is ${20 * 2}');
+  int counter = 5;
+  while (counter > 0) {
+    print("My name is Sina");
+    counter = counter - 2;
+  }
 }
